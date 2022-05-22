@@ -82,4 +82,5 @@ document.querySelector('.form').onsubmit = function () {
   this.story.value = '';
 
   return false;
+  //
 };
