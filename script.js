@@ -36,7 +36,7 @@ const convertToDiscussion = (obj) => {
     obj.createdAt
   ).toLocaleDateString()}`;
   discussionContent.append(discussionTiile, discussionInformation);
-
+  //ㅎㅎㅎㅎㅎ
   const checked = document.createElement('p');
   checked.className = 'discussion__answered';
   checked.textContent = obj.answer ? '✓' : '𐄂';
