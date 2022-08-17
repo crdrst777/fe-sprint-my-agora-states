@@ -38,7 +38,7 @@ function App() {
       .catch((error) => console.log(error));
   }; // 해당 아이디를 받아서 삭제할 수 있도록 한다.
   return (
-    <>
+    <div>
       <h1>TODO APP</h1>
       <div>
         <h2>추가하기</h2>
@@ -66,7 +66,7 @@ function App() {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 
